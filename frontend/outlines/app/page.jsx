@@ -1,16 +1,13 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import Navbar from './components/Navbar'
 
 export default function Home() {
   return (
     <>
     <div className='wrapper'>
-      <div className='navbar'>
-        <img src='/home.png' alt='home'/>
-        <img src='/graph.png' alt='graph'/>
-        <img src="/grid.png" alt='grid'/>
-      </div>
       
+    <Navbar/>
       <div className='main'>
         <h1>Outlines</h1>
         <div className='agentArea'>
